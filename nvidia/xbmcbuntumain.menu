@@ -1,0 +1,8 @@
+LABEL XBMCBUNTUNVIDIA
+MENU LABEL ^XBMCbuntu Live Nvidia
+KERNEL er/plugins/xbmcbuntu/nvidia/vmlinuz
+INITRD er/plugins/xbmcbuntu/nvidia/initrd.lz
+APPEND vga=normal boot=casper live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/xbmcbuntu/nvidia/ ramdisk_size=200000 nolock url=http://10.0.0.1/er/xbmcbuntu/nvidia/ubuntu.seed
+TEXT HELP
+                 XBMCbuntu Live.
+ENDTEXT

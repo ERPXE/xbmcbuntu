@@ -1,0 +1,14 @@
+MENU BEGIN XBMCBUNTU
+MENU LABEL ^XBMCbuntu 12.2
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/xbmcbuntu/xbmcbuntu.png
+
+MENU INCLUDE er/plugins/xbmcbuntu/amd/xbmcbuntumain.menu
+MENU INCLUDE er/plugins/xbmcbuntu/nvidia/xbmcbuntumain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

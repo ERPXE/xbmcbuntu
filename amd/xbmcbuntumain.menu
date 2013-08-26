@@ -1,0 +1,8 @@
+LABEL XBMCBUNTUAMD
+MENU LABEL ^XBMCbuntu Live AMD
+KERNEL er/plugins/xbmcbuntu/amd/vmlinuz
+INITRD er/plugins/xbmcbuntu/amd/initrd.lz
+APPEND vga=normal boot=casper live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/xbmcbuntu/amd/ ramdisk_size=200000 nolock url=http://10.0.0.1/er/xbmcbuntu/amd/ubuntu.seed
+TEXT HELP
+                 XBMCbuntu Live.
+ENDTEXT
